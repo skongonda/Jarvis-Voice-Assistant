@@ -97,12 +97,15 @@ Include time awareness
 Attach previous interactions
 
 ### 4. Action Execution Matrix:
+```python
 
 Command Type	Action	Example
 open chrome	Launch browser	"Open Chrome"
 search for	Google search	"Search for AI news"
 what is	GPT-4 explanation	"What is quantum computing"
 exit	Clean shutdown	"Goodbye Jarvis"
+
+```
 
 ### 5. Technical Stack:
 
