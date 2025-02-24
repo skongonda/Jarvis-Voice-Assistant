@@ -63,8 +63,9 @@ A human-like voice assistant with advanced NLP capabilities
           │  - Voice Response      │
           │  - Memory Update       │
           └────────────────────────┘
+```
 
-Memory Management 🧠
+### 2. Memory Management 🧠
 
 Short-term: In-memory list (conversation_history)
 
@@ -73,7 +74,7 @@ Context Window: Last 6 messages (3 exchanges)
 Persistent Storage: None (volatile memory only)
 
 
-Command Processing Flow ⚙️
+### 3. Command Processing Flow ⚙️
 
 Voice Input -> Text Conversion
 
@@ -95,11 +96,21 @@ Include time awareness
 
 Attach previous interactions
 
-Action Execution Matrix:
+### 4. Action Execution Matrix:
 
 Command Type	Action	Example
 open chrome	Launch browser	"Open Chrome"
 search for	Google search	"Search for AI news"
 what is	GPT-4 explanation	"What is quantum computing"
 exit	Clean shutdown	"Goodbye Jarvis"
+
+### 5. Technical Stack:
+
+Selenium WebDriver
+
+Chrome Options Configuration
+
+Explicit Waits (10s timeout)
+
+XPath/CSS Selector Handling
 
